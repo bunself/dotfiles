@@ -5,6 +5,6 @@
 <div align=left>
     
 ## Inspiration
-* The IBM [color guidelines](https://www.ibm.com/design/language/color/) and the [rice](https://raw.githubusercontent.com/bunself/dotfiles/.github/assets/shaunsinh.png) that helped me find them
+* The IBM [color guidelines](https://www.ibm.com/design/language/color/) and the [rice](https://github.com/bunself/dotfiles/blob/main/.github/assets/shaunsingh.png) that helped me find them
 * test
 * a
