@@ -5,6 +5,6 @@
 <div align=left>
     
 ## Inspiration
-* The IBM [color guidelines](https://www.ibm.com/design/language/color/) and the [rice](https://github.com/bunself/dotfiles/blob/main/.github/assets/shaunsingh.png) that helped me find them
-* test
-* a
+*  [IBM color guidelines](https://www.ibm.com/design/language/color/) and this [rice](https://github.com/bunself/dotfiles/blob/main/.github/assets/shaunsingh.png) (Hi_Im_Bored#1741)
+* [Simple-Bar](https://github.com/Jean-Tinland/simple-bar) for yabai
+* [This](https://www.reddit.com/r/foobar2000/comments/ogs88y/my_dark_mode_foobar_theme/) foobar2000 theme
