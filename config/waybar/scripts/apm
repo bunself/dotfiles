@@ -1,0 +1,17 @@
+life=$(apm | grep -m 1 life | awk '{print $4+0}')
+status=$(apm | grep -m 1 Status | awk '{print $3}')
+
+
+if [ $status == charging ] 
+then icon=
+elif [ $life -gt 75 ]
+then icon=
+elif [ $life -gt 50 ]
+then icon=
+elif [ $life -gt 25 ]
+then icon= 
+elif [ $life -gt 0 ]
+then icon= 
+fi
+
+echo  $icon" "$life"%"

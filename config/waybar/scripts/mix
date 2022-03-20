@@ -1,0 +1,9 @@
+vol=$(mixer vol | awk '{print $7}' |  sed "s/[:].*//") 
+if [ $vol -gt 66 ]
+then icon=墳
+elif [ $vol -gt 33 ]
+then icon=奔
+elif [ $vol -gt 0 ]
+then icon=奄
+fi
+echo $icon $vol"%"
