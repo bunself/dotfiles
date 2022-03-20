@@ -1,0 +1,55 @@
+#!/bin/sh
+
+#cosmetiC
+waybar &
+riverctl background-color 0xffffff
+riverctl border-width 0
+
+riverctl input 2:7:SynPS/2_Synaptics_TouchPad disable-while-typing disabled
+
+#program keybinds
+riverctl map normal Super Return spawn kitty
+riverctl map normal Super D spawn deadbeef
+riverctl map normal Super F spawn firefox
+riverctl map normal super Z spawn zathura
+
+#action keybinds
+riverctl map normal Super+Shift Q close
+riverctl map normal Super+Shift E exit
+
+#tiling
+riverctl default-layout rivertile
+exec rivertile -main-ratio .5 -outer-padding 10 -view-padding 10 &
+ 
+#change window focus
+riverctl map normal Super Left focus-view next
+riverctl map normal Super Right focus-view previous
+#move focused window
+riverctl map normal Super+Shift Left swap next
+riverctl map normal Super+Shift Right swap previous
+ 
+#resize and move windows w/ mouse
+riverctl map-pointer normal Super BTN_LEFT move-view
+riverctl map-pointer normal Super+Shift BTN_LEFT resize-view
+ 
+#workspaces
+for i in $(seq 1 5)
+do
+    tags=$((1 << ($i - 1)))
+    riverctl map normal Super $i set-focused-tags $tags
+    riverctl map normal Super+Shift $i set-view-tags $tags
+done
+
+#tiled/floating/fullscreen
+riverctl map normal Superi+Shift Space toggle-float
+riverctl map normal Super Space toggle-fullscreen
+
+#scratchpad
+scratch_tag=$((1 << 20 ))
+riverctl map normal Super 0 toggle-focused-tags ${scratch_tag}
+riverctl map normal Super+Shift 0 set-view-tags ${scratch_tag}
+all_but_scratch_tag=$(( ((1 << 32) - 1) ^ $scratch_tag ))
+riverctl spawn-tagmask ${all_but_scratch_tag}
+
+#keyboard check refresh rate?
+riverctl set-repeat 50 300
