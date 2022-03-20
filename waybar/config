@@ -1,0 +1,31 @@
+{
+    "modules-left": ["river/tags"],
+    "modules-right": ["custom/apm", "custom/mix", "custom/clock"],
+
+    "custom/clock": {
+	"interval": 60,
+	"exec": "~/.config/waybar/scripts/date",
+
+    },
+    "custom/apm": {
+        "exec": "~/.config/waybar/scripts/apm",
+        "interval": 1,
+        "tooltip": "false",
+    },
+    "river/tags": {
+    "num-tags": 5,
+    },
+    "custom/apm": {
+	"exec": "~/.config/waybar/scripts/apm",
+	"interval": 1,
+	"tooltip": "false", 
+    },
+    "custom/mix": {
+	"exec": "~/.config/waybar/scripts/mix",
+	"on-scroll-down": "mixer vol -1 > /dev/null",
+	"on-scroll-up": "mixer vol +1 > /dev/null",
+	"on-click": "~/.config/waybar/scripts/mixonoff",
+	"interval": 1,
+	"tooltip": "false",
+}
+}
