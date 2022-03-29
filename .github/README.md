@@ -28,8 +28,8 @@
    * Remove the firefox directory from the config folder
   #### Waybar
    * Just a note for now, the [JetBrains Mono Nerd Font](https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/JetBrainsMono/Ligatures/Regular/complete/JetBrains%20Mono%20Regular%20Nerd%20Font%20Complete.ttf) is recommended
- 
- * Move the reamaining folders under config to your .config folder **(Note: The modules for waybar will not work on non FreeBSD systems, so some tinkering may be needed to get them to work)**
+ #### Placeholder
+   * Move the reamaining folders under config to your .config folder **(Note: The modules for waybar will not work on non FreeBSD systems, so some tinkering may be needed to get them to work)**
    
  
 ## Inspiration
