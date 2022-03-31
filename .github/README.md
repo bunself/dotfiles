@@ -25,6 +25,7 @@
    * Move the userChrome.css file to it
    * Install the[ Tab Center Reborn](https://addons.mozilla.org/en-US/firefox/addon/tabcenter-reborn/) extension
    * Copy the contents of tabCenterReborn.css to the custom stylesheet menu under the preferences for the vertical tab extension
+   * You'll also need to fiddle around w/ the firefox color extension a bit
    * Remove the firefox directory from the config folder
   #### Waybar
    * Just a note for now, the [JetBrains Mono Nerd Font](https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/JetBrainsMono/Ligatures/Regular/complete/JetBrains%20Mono%20Regular%20Nerd%20Font%20Complete.ttf) is recommended
