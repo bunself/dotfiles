@@ -21,6 +21,7 @@
  #### Firefox
   <img src="https://raw.githubusercontent.com/bunself/dotfiles/main/.github/assets/firefox.png" alt="img" align="right" width="400px">
   
+  
    * Go to about:config and set "toolkit.legacyUserProfileCustomizations.stylesheets" to true  
    * After this find your firefox profile at about:support (labeled "Profile Folder")
    * If the chrome directory in your profile folder isnt already present create it 
