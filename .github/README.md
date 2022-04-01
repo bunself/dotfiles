@@ -17,7 +17,7 @@
  * [wofi](https://hg.sr.ht/~scoopta/wofi) (program launcher)
 ## Installation 
  * Clone this repostory
- * Make sure the following packages are installed (or your alternative/s of choice) `waybar` `river` `kitty` `firefox`
+ * Make sure the following packages are installed (or your alternative/s of choice) `waybar` `river` `kitty` `firefox` `deadbeef` `wofi`
 
  #### Firefox
   <img src="https://raw.githubusercontent.com/bunself/dotfiles/main/.github/assets/firefox.png" alt="img" align="right" width="400px">
@@ -29,7 +29,7 @@
    * Install the[ Tab Center Reborn](https://addons.mozilla.org/en-US/firefox/addon/tabcenter-reborn/) extension
    * Copy the contents of tabCenterReborn.css to the custom stylesheet menu under the preferences for the vertical tab extension
    * You'll also need to fiddle around w/ the firefox color extension a bit
-   * Remove the firefox directory from the config folder
+ 
   
   #### Waybar
   
