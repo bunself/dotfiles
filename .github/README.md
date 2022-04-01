@@ -28,10 +28,15 @@
    * You'll also need to fiddle around w/ the firefox color extension a bit
    * Remove the firefox directory from the config folder
   #### Waybar
-   * Just a note for now, the [JetBrains Mono Nerd Font](https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/JetBrainsMono/Ligatures/Regular/complete/JetBrains%20Mono%20Regular%20Nerd%20Font%20Complete.ttf) is recommended
+   * Just two notes for now, the [JetBrains Mono Nerd Font](https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/JetBrainsMono/Ligatures/Regular/complete/JetBrains%20Mono%20Regular%20Nerd%20Font%20Complete.ttf) is recommended
+   * The modules for waybar **will not work on non FreeBSD systems**, so some tinkering may be needed to get them to work
+  #### Deadbeef
+   * Get [this](https://github.com/EliverLara/Nordic) gtk theme and move it to /usr/share/themes or wherever
+   * Replace /gtk-2.0/gtkrc with the gtk rc from this folder
+   * Side note: You might need to fiddle around w/ playlist names, dimensions and whatnot; as this was made on a 1366x768 display with my specific music library.
  #### Placeholder
-   * Move the reamaining folders under config to your .config folder **(Note: The modules for waybar will not work on non FreeBSD systems, so some tinkering may be needed to get them to work)**
-   
+   * Move the reamaining folders under config to your .config folder
+
  
 ## Inspiration
 *  [IBM deisgn guidelines](https://www.ibm.com/design/language/) and this [rice](https://github.com/bunself/dotfiles/blob/main/.github/assets/shaunsingh.png) (Hi_Im_Bored#1741)
