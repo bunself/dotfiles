@@ -14,7 +14,6 @@
  * [kitty](https://github.com/kovidgoyal/kitty) (terminal emulator)
  * [deadbeef](https://github.com/DeaDBeeF-Player/deadbeef) (music player)
  * [firefox](https://www.mozilla.org/en-US/firefox/new/) (browser)
- * [wofi](https://hg.sr.ht/~scoopta/wofi) (program launcher)
 ## Installation 
  * Clone this repostory
  * Make sure the following packages are installed (or your alternative/s of choice) `waybar` `river` `kitty` `firefox` `deadbeef` `wofi`
@@ -45,9 +44,7 @@
    * Get [this](https://github.com/EliverLara/Nordic) gtk theme and move it to /usr/share/themes or wherever the gtk theme directory is on your distro
    * Replace /gtk-2.0/gtkrc with the gtkrc from this folder
    * Side note: You might need to fiddle around w/ playlist names, dimensions and whatnot; as this was made on a 1366x768 display with my specific music library.
-  #### Wofi
-   * Not finished
-  
+ 
  #### Placeholder
    * Move the reamaining folders under config to your .config folder
  
