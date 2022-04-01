@@ -3,8 +3,8 @@
   
 [![FreeBSD](https://img.shields.io/badge/FreeBSD-13.0-ff7eb6?style=flat&logo=freebsd)](https://www.freebsd.org/) [![River](https://img.shields.io/badge/River-0.1.3-33b1ff?style=flat&logo=i3)](https://github.com/riverwm/river)
 <div align=left>
-  I don't really know what to say here, but here are some screenshots 
-<img src="https://raw.githubusercontent.com/bunself/dotfiles/main/.github/assets/Placeholder.png" alt="img" align="right" width="400px">
+  I don't really know what to say here, but here is a screenshot
+<img src="https://raw.githubusercontent.com/bunself/dotfiles/main/.github/assets/dots.png" alt="img" align="right" width="400px">
 
 ### Programs Used
  * [river](https://github.com/riverwm/river) (compositor)
@@ -18,8 +18,9 @@
  * Make sure the following packages are installed (or your alternative/s of choice) `waybar` `river` `kitty` `firefox`
 
  #### Firefox
-
-   * Go to about:config and set "toolkit.legacyUserProfileCustomizations.stylesheets" to true
+  <img src="https://raw.githubusercontent.com/bunself/dotfiles/main/.github/assets/firefox.png" alt="img" align="right" width="400px">
+  
+   * Go to about:config and set "toolkit.legacyUserProfileCustomizations.stylesheets" to true  
    * After this find your firefox profile at about:support (labeled "Profile Folder")
    * If the chrome directory in your profile folder isnt already present create it 
    * Move the userChrome.css file to it
